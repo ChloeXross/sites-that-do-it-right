@@ -5,39 +5,38 @@
     font-family: "Andika", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  .andika-bold {
+.andika-bold {
     font-family: "Andika", sans-serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
   
-  .andika-regular-italic {
+.andika-regular-italic {
     font-family: "Andika", sans-serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
   
-  .andika-bold-italic {
+.andika-bold-italic {
     font-family: "Andika", sans-serif;
     font-weight: 700;
     font-style: italic;
-  }
+}
 
-  /* Alfa Slab One */
-  .alfa-slab-one-regular {
+/* Alfa Slab One */
+.alfa-slab-one-regular {
     font-family: "Alfa Slab One", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
-  p {
+p {
     font-family: "Andika", sans-serif;
-  }
+}
 
-  .heading {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Alfa Slab One", serif;
-    font-size: 60px;
-  }
+}
   
