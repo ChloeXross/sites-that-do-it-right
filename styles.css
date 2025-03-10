@@ -32,6 +32,10 @@
     font-style: normal;
   }
 
+  p {
+    font-family: "Andika", sans-serif;
+  }
+
   .heading {
     font-family: "Alfa Slab One", serif;
     font-size: 60px;
