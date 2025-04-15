@@ -84,14 +84,19 @@ p {
     background-color: #2E170E;
     color: white;
     border-radius: 40px;
-}
-
-.margin-right {
+    margin-top: 20px;
     margin-right: 20px;
 }
 
-.margin-top {
-    margin-top: 20px;
+/* Section headings */
+.section-heading {
+    font-size: 70px !important;
+    font-family: "Andika", sans-serif !important;
+    margin-top: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #FBD5D6;
+    text-align: center;
 }
 
 
