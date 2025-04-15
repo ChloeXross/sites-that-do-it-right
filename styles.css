@@ -43,8 +43,17 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+/* General styling of website */
+body {
+    background-color: #FFFBF0;
+    color: #2E170E;
+}
 
 
+
+
+
+/* Navigation bar code snippet from W3Schools */
 .topnav {
     overflow: hidden;
     background-color: #333;
