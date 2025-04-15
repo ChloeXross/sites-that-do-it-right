@@ -45,16 +45,62 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* General styling of website */
+
+/* Text & colour */
 body {
     background-color: #FFFBF0;
     color: #2E170E;
+}
+
+h1 {
+    font-size: 75px;
+}
+
+p {
+    font-size: 22px;
+}
+
+/* Blog layout */
+.blog-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Skip to section */
+.skip-to {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.skip-button {
+    font-size: 18px;
+    font-family: "Andika", sans-serif;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #2E170E;
+    color: white;
+    border-radius: 40px;
+}
+
+.margin-right {
+    margin-right: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
 }
 
 
 
 
 
-/* Navigation bar code snippet from W3Schools */
+
+
+/* Navigation bar code snippet from W3Schools
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -156,5 +202,5 @@ body {
         width: 100%;
         text-align: left;
     }
-} 
+}  */
   
