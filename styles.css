@@ -89,14 +89,21 @@ p {
 }
 
 /* Section headings */
+.section-column {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FBD5D6;
+}
+
 .section-heading {
     font-size: 70px !important;
     font-family: "Andika", sans-serif !important;
-    margin-top: 100px;
     padding-top: 150px;
     padding-bottom: 150px;
-    background: #FBD5D6;
-    text-align: center;
+    text-align: left;
 }
 
 
