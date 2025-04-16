@@ -105,9 +105,37 @@ p {
 .section-heading {
     font-size: 70px !important;
     font-family: "Andika", sans-serif !important;
+    font-style: bold;
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: left;
+}
+
+.section-heading1 {
+    font-size: 70px !important;
+    font-family: "Andika", sans-serif !important;
+    font-style: bold;
+    padding-top: 150px;
+    text-align: left;
+}
+
+.section-heading2 {
+    font-size: 70px !important;
+    font-family: "Andika", sans-serif !important;
+    font-style: bold;
+    text-align: right;
+}
+
+.section-heading3 {
+    font-size: 70px !important;
+    font-family: "Andika", sans-serif !important;
+    font-style: bold;
+    padding-bottom: 150px;
+    text-align: left;
+}
+
+.star {
+    background-color: #FFFF02;
 }
 
 /* Content */
@@ -117,6 +145,7 @@ p {
 
 .content-copy {
     margin-top: 10px;
+    margin-bottom: 100px;
 }
 
 
