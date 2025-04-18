@@ -144,6 +144,19 @@ p {
 }
 
 /* Content */
+@media only screen and (max-width: 992px) {
+    .content-header {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-header {
+        color: red;
+    }
+}
+
+
 .content-header {
     margin-top: 100px;
 }
