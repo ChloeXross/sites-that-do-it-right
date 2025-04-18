@@ -66,7 +66,9 @@ p {
 
 
 
-/* Header styling */
+/* Header */
+
+/* Header responsive styling */
 @media only screen and (max-width: 992px) {
     .heading {
         color: red;
@@ -98,31 +100,9 @@ p {
 
 
 
-/* Skip to section */
-@media only screen and (max-width: 992px) {
-    .skip-section {
-        color: red;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
+/* Skip to */
 
-@media only screen and (max-width: 768px) {
-    .skip-section {
-        color: blue;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .skip-section {
-        color: green;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-}
-
+/* Skip general styling */
 .skip-to {
     display: flex;
     flex-direction: column;
@@ -147,6 +127,31 @@ p {
     color: white;
 }
 
+/* Skip responsive styling */
+@media only screen and (max-width: 992px) {
+    .skip-section {
+        color: red;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .skip-section {
+        color: blue;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skip-section {
+        color: green;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
 
 
 
@@ -163,64 +168,9 @@ p {
 
 
 
-/* Section headings */
-@media only screen and (max-width: 992px) {
-    .section-heading {
-        color: red;
-        font-size: 60px !important;
-    }
-    .section-heading1 {
-        color: red;
-        font-size: 60px !important;
-    }
-    .section-heading2 {
-        color: red;
-        font-size: 60px !important;
-    }
-    .section-heading3 {
-        color: red;
-        font-size: 60px !important;
-    }
-}
+/* Section */
 
-@media only screen and (max-width: 768px) {
-    .section-heading {
-        color: blue;
-        font-size: 50px !important;
-    }
-    .section-heading1 {
-        color: blue;
-        font-size: 50px !important;
-    }
-    .section-heading2 {
-        color: blue;
-        font-size: 50px !important;
-    }
-    .section-heading3 {
-        color: blue;
-        font-size: 50px !important;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .section-heading {
-        color: green;
-        font-size: 46px !important;
-    }
-    .section-heading1 {
-        color: green;
-        font-size: 46px !important;
-    }
-    .section-heading2 {
-        color: green;
-        font-size: 46px !important;
-    }
-    .section-heading3 {
-        color: green;
-        font-size: 46px !important;
-    }
-}
-
+/* Section general styling */
 .section-column {
     margin-top: 100px;
     display: flex;
@@ -264,6 +214,70 @@ p {
 
 .star {
     background-color: #FFFF02;
+}
+
+/* Section responsive styling */
+@media only screen and (max-width: 992px) {
+    .section-heading {
+        color: red;
+        font-size: 60px !important;
+    }
+    .section-heading1 {
+        color: red;
+        font-size: 60px !important;
+    }
+    .section-heading2 {
+        color: red;
+        font-size: 60px !important;
+    }
+    .section-heading3 {
+        color: red;
+        font-size: 60px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .section-heading {
+        color: blue;
+        font-size: 50px !important;
+    }
+    .section-heading1 {
+        color: blue;
+        font-size: 50px !important;
+    }
+    .section-heading2 {
+        color: blue;
+        font-size: 50px !important;
+    }
+    .section-heading3 {
+        color: blue;
+        font-size: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .section-heading {
+        color: green;
+        font-size: 46px !important;
+    }
+    .section-heading1 {
+        color: green;
+        font-size: 46px !important;
+    }
+    .section-heading2 {
+        color: green;
+        font-size: 46px !important;
+    }
+    .section-heading3 {
+        color: green;
+        font-size: 46px !important;
+    }
+    .section-column {
+        margin-top: 50px !important;
+    }
+    .content-header {
+        margin-top: 50px !important;
+    }
 }
 
 
