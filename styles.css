@@ -44,8 +44,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
-/* General styling of website */
-
 /* Text & colour */
 body {
     background-color: #FFFBF0;
@@ -64,6 +62,10 @@ p {
     font-size: 22px;
 }
 
+
+
+
+
 /* Blog layout */
 .blog-column {
     display: flex;
@@ -71,6 +73,10 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
 
 /* Skip to section */
 .skip-to {
@@ -96,6 +102,10 @@ p {
     text-decoration: none;
     color: white;
 }
+
+
+
+
 
 /* Section headings */
 .section-column {
@@ -143,20 +153,13 @@ p {
     background-color: #FFFF02;
 }
 
+
+
+
+
 /* Content */
-@media only screen and (max-width: 992px) {
-    .content-header {
-        margin-top: 100px;
-    }
-}
 
-@media only screen and (max-width: 768px) {
-    .content-header {
-        color: red;
-    }
-}
-
-
+/* Content general styling */
 .content-header {
     margin-top: 100px;
 }
@@ -166,6 +169,45 @@ p {
     font-size: 22px;
     font-family: "Andika", sans-serif !important;
 }
+
+/* Content responsive styling */
+@media only screen and (max-width: 1200px) {
+    .content-header {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .content-header {
+        color: red; 
+        padding-left: 100px;
+        padding-right: 100px;
+        align-items: flex-start;
+    }
+    .content-copy {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-header {
+        color: blue;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .content-copy {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content-header {
+        color: green;
+    }
+}
+
 
 
 
