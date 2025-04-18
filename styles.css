@@ -307,6 +307,10 @@ p {
     font-family: "Andika", sans-serif !important;
 }
 
+.tab {
+    margin-left: 40px;
+}
+
 /* Content responsive styling */
 @media only screen and (max-width: 992px) {
     .content-header {
@@ -319,6 +323,10 @@ p {
         padding-left: 100px;
         padding-right: 100px;
     }
+    .container {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -330,6 +338,13 @@ p {
     .content-copy {
         padding-left: 60px;
         padding-right: 60px;
+    }
+    .tab {
+        margin-left: 30px;
+    }
+    .container {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -344,4 +359,21 @@ p {
         padding-right: 30px;
         font-size: 18px !important;
     }
+    .tab {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+    
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
 }
