@@ -180,6 +180,16 @@ p {
     background: #FBD5D6;
 }
 
+.references-column {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #CC2753;
+    color: white;
+}
+
 .section-heading {
     font-size: 70px;
     font-family: "Andika", sans-serif !important;
