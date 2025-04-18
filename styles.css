@@ -92,6 +92,11 @@ p {
     margin-right: 20px;
 }
 
+.skip-link {
+    text-decoration: none;
+    color: white;
+}
+
 /* Section headings */
 .section-column {
     margin-top: 100px;
