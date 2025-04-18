@@ -72,22 +72,25 @@ p {
         color: red;
         padding-left: 100px;
         padding-right: 100px;
+        font-size: 65px !important;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .heading {
         color: blue;
-        padding-left: 80px;
-        padding-right: 80px;
-        font-size: 65px !important;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 60px !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .heading {
         color: green;
-        font-size: 60px !important;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 46px !important;
     }
 }
 
@@ -107,14 +110,16 @@ p {
 @media only screen and (max-width: 768px) {
     .skip-section {
         color: blue;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .skip-section {
         color: green;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
@@ -200,6 +205,19 @@ p {
 @media only screen and (max-width: 600px) {
     .section-heading {
         color: green;
+        font-size: 46px !important;
+    }
+    .section-heading1 {
+        color: green;
+        font-size: 46px !important;
+    }
+    .section-heading2 {
+        color: green;
+        font-size: 46px !important;
+    }
+    .section-heading3 {
+        color: green;
+        font-size: 46px !important;
     }
 }
 
@@ -282,17 +300,24 @@ p {
 @media only screen and (max-width: 768px) {
     .content-header {
         color: blue;
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
     .content-copy {
-        padding-left: 80px;
-        padding-right: 80px;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .content-header {
         color: green;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .content-copy {
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 18px !important;
     }
 }
