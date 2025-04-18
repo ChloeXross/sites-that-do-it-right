@@ -311,6 +311,17 @@ p {
     margin-left: 40px;
 }
 
+/* YouTube embed */
+.container {
+    display: flex;
+    justify-content: center;
+}
+    
+iframe {
+    aspect-ratio: 16 / 9;
+    width: 100% !important;
+}
+
 /* Content responsive styling */
 @media only screen and (max-width: 992px) {
     .content-header {
@@ -362,18 +373,4 @@ p {
     .tab {
         margin-left: 20px;
     }
-}
-
-
-
-
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-    
-iframe {
-    aspect-ratio: 16 / 9;
-    width: 100% !important;
 }
