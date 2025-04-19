@@ -58,6 +58,14 @@ h3 {
     font-size: 32px;
 }
 
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
 p {
     font-size: 22px;
 }
@@ -332,6 +340,14 @@ p {
     font-family: "Andika", sans-serif !important;
 }
 
+.content-sub {
+    margin-top: 30px;
+}
+
+.content-sub2 {
+    margin-top: 10px;
+}
+
 .tab {
     margin-left: 40px;
 }
@@ -359,6 +375,14 @@ iframe {
         padding-left: 100px;
         padding-right: 100px;
     }
+    .content-sub {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .content-sub2 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
     .container {
         padding-left: 70px;
         padding-right: 70px;
@@ -372,6 +396,14 @@ iframe {
         padding-right: 60px;
     }
     .content-copy {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .content-sub {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .content-sub2 {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -394,6 +426,14 @@ iframe {
         padding-left: 30px;
         padding-right: 30px;
         font-size: 18px !important;
+    }
+    .content-sub {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .content-sub2 {
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .tab {
         margin-left: 20px;
