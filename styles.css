@@ -68,6 +68,11 @@ p {
 
 /* Header */
 
+/* Header general styling */
+.heading {
+    padding-top: 105px;
+}
+
 /* Header responsive styling */
 @media only screen and (max-width: 992px) {
     .heading {
@@ -372,5 +377,83 @@ iframe {
     }
     .tab {
         margin-left: 20px;
+    }
+}
+
+
+
+
+
+/* Navigation Bar */
+
+/* Navbar general styling */
+.stdir-navbar {
+    justify-content: right;
+    padding-right: 80px;
+    font-family: "Andika", sans-serif !important;
+    font-size: 18px;
+    color: #2E170E !important;
+}
+
+.stdir-title {
+    padding-left: 80px;
+    font-family: "Andika", sans-serif !important;
+    font-size: 22px !important;
+    font-weight: 700;
+    color: #2E170E !important;
+}
+
+.stdir-navbg {
+    background-color: #FFFBF0;
+    padding-top: 20px;
+}
+
+.stdir-dropdown {
+    font-size: 18px !important;
+}
+
+/* Navbar responsive styling */
+@media only screen and (max-width: 992px) {
+    .stdir-navbar {
+        color: red;
+        justify-content: right;
+        padding-right: 80px;
+    }
+    .stdir-title {
+        color: red;
+        padding-left: 80px;
+    }
+    .nav-link {
+        padding-left: 80px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .stdir-navbar {
+        color: blue;
+        justify-content: right;
+        padding-right: 50px;
+    }
+    .stdir-title {
+        color: blue;
+        padding-left: 50px;
+    }
+    .nav-link {
+        padding-left: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .stdir-navbar {
+        color: green;
+        justify-content: right;
+        padding-right: 20px;
+    }
+    .stdir-title {
+        color: green;
+        padding-left: 20px;
+    }
+    .nav-link {
+        padding-left: 20px !important;
     }
 }
