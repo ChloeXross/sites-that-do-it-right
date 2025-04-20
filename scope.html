@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Principles</title>
+
+    <!-- Bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/components/navbar/">
+    <link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://getbootstrap.com/docs/4.0/assets/js/vendor/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://getbootstrap.com/docs/4.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Link to Font Awesome -->
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
+    <script src="https://kit.fontawesome.com/5764c2c59a.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <!-- Link for Andika -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Bevan&family=Dela+Gothic+One&family=Federo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monoton&family=Pirata+One&family=Roboto:wght@100&family=Tenor+Sans&family=Tilt+Neon&family=Uncial+Antiqua&family=UnifrakturMaguntia&family=Yeseva+One&display=swap" rel="stylesheet">
+    <!-- Link for Alfa Slab One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Bevan&family=Dela+Gothic+One&family=Federo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Monoton&family=Pirata+One&family=Roboto:wght@100&family=Tenor+Sans&family=Tilt+Neon&family=Uncial+Antiqua&family=UnifrakturMaguntia&family=Yeseva+One&display=swap" rel="stylesheet">
+    
+</head>
+
+
+
+
+<body>
+
+
+    <!-- Navigation bar code snippet from Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light stdir-navbg">
+        <a class="navbar-brand stdir-title" href="index.html">Sites That Do It Right</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse stdir-navbar" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="principles.html">Principles <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="example-sites.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Example Websites</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item stdir-dropdown" href="scope.html">Scope</a>
+                        <a class="dropdown-item stdir-dropdown" href="bda.html">British Dyslexia Association</a>
+                        <a class="dropdown-item stdir-dropdown" href="blue-bowl.html">Blue Bowl</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- Blog column layout -->
+    <div class="blog-column">
+
+        <!-- Heading -->
+        <h1 class="col-lg-6 heading">Principles</h1>
+
+        <!-- Skip to... section -->
+        <p class="col-lg-6 mt-5 skip-section">Skip to one of these sections...</p> <!-- TEXT STAYS CENTRAL WHEN RESPONSIVE!!!!!!! -->
+        <div class="col-lg-6 skip-section">
+            <button class="skip-button"><a href="#necessary-inclusions" class="skip-link">Necessary Inclusions</a></button>
+            <button class="skip-button"><a href="#other-considerations" class="skip-link">Other Considerations</a></button>
+            <button class="skip-button"><a href="#wcag" class="skip-link">Web Content Accessibility Guidelines</a></button>
+            <button class="skip-button"><a href="#other-practices" class="skip-link">Other Practices</a></button>
+        </div>
+
+    </div>
+
+
+    <!-- Necessary Inclusions section heading -->
+    <div class="section-column col-lg-12">
+        <h2 class="section-heading1 col-lg-6"><a name="necessary-inclusions"><i class="fa-solid fa-asterisk star" style="color: #a65a01;"></i> NECESSARY</a></h2>
+        <h2 class="section-heading4 col-lg-6">INCLUSIONS</h2>
+    </div>
+
+    <!-- Necessary Inclusions blog content -->
+    <div class="blog-column">
+        <h3 class="col-lg-6 content-header">Necessary inclusions</h3>
+        <p class="col-lg-6 content-copy">Here is a list of accessibility principles that everyone should have on their website - these should be mandatory in my eyes!</p>
+        <h4 class="col-lg-6 content-sub">Alternative text</h4>
+        <p class="col-lg-6 content-copy">Images should have descriptions that screen readers can read out to users who might have visual impairments and are unable to see them. This also includes having transcripts for videos.</p>
+        <h4 class="col-lg-6 content-sub">Keyboard navigation</h4>
+        <p class="col-lg-6 content-copy">Users should be able to interact with a website using a keyboard alone. This is to aid people with motor disabilities or visual impairments.</p>
+        <h4 class="col-lg-6 content-sub">Colour contrast</h4>
+        <p class="col-lg-6 content-copy">This is not only for people with visual impairments but can help with glare on screens, such as from the sun.</p>
+        <h4 class="col-lg-6 content-sub">Larger font sizes</h4>
+        <p class="col-lg-6 content-copy">No one likes having to squint to read the text on their screen! The size used for the copy on this website is 22px, while the minimum recommended is 16px.</p>
+    </div>
+
+
+    <!-- Other Considerations section heading -->
+    <div class="section-column col-lg-12">
+        <h2 class="section-heading1 col-lg-6"><a name="other-considerations"><i class="fa-solid fa-asterisk star" style="color: #a65a01;"></i> WHAT OTHER</a></h2>
+        <h2 class="section-heading4 col-lg-6">CONSIDERATIONS?</h2>
+    </div>
+
+    <!-- Other Considerations blog content -->
+    <div class="blog-column">
+        <h3 class="col-lg-6 content-header">What other considerations?</h3>
+        <p class="col-lg-6 content-copy">The points mentioned above should be bare-minimum considerations. But what else could you consider to make your website a more inclusive space?</p>
+        <h4 class="col-lg-6 content-sub">Color</h4>
+        <h5 class="col-lg-6 content-sub2">Learning disabilities</h5>
+        <ul class="col-lg-6 content-copy tab">
+            <li>Softer colours tend to be better for individuals with learning disabilities as they are less distracting.</li>
+            <li>If colour is being used to display meaning on your site, this should be described as it is not always obvious.</li>
+        </ul>
+        <h5 class="col-lg-6 content-sub2">Visual impairments</h5>
+        <ul class="col-lg-6 content-copy tab">
+            <li>Colour blindness – this is something that should be considered within your colour contrast levels. What colours look similar with different types of colour blindness? Avoid using these together.</li>
+        </ul>
+        <h4 class="col-lg-6 content-sub">Fonts</h4>
+        <h5 class="col-lg-6 content-sub2">Learning difficulties</h5>
+        <ul class="col-lg-6 content-copy tab">
+            <li>Find a suitable typeface for dyslexia, such as the one being used now (andika). Similar letters should be easy to differentiate – for example, i L l and 1.</li>
+        </ul>
+    </div>
+    
+
+    <!-- WCAG section heading -->
+    <div class="section-column col-lg-12">
+        <h2 class="section-heading1 col-lg-6"><a name="wcag"><i class="fa-solid fa-asterisk star" style="color: #a65a01;"></i> WEB CONTENT</a></h2>
+        <h2 class="section-heading2 col-lg-6">ACCESSIBILITY</h2>
+        <h2 class="section-heading3 col-lg-6">GUIDELINES</h2>
+    </div>
+
+    <!-- WCAG blog content -->
+    <div class="blog-column">
+        <h3 class="col-lg-6 content-header">Web Content Accessibility Guildelines (WCAG)</h3>
+        <p class="col-lg-6 content-copy">“WCAG” is a term you might see thrown around when web accessibility is spoken about. These are a set of rules that websites typically have to follow to be available for everyone – here is a short video explanation!</p>
+        <div class="container col-lg-6">
+            <iframe src="https://www.youtube.com/embed/5H1JGdqLrWo?si=N-mhz-LO3rcA2LZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <!-- Other Practices section heading -->
+    <div class="section-column col-lg-12">
+        <h2 class="section-heading1 col-lg-6"><a name="other-practices"><i class="fa-solid fa-asterisk star" style="color: #a65a01;"></i> APPLYING TO</a></h2>
+        <h2 class="section-heading4 col-lg-6">OTHER PRACTICES</h2>
+    </div>
+
+    <!-- Other Practices blog content -->
+    <div class="blog-column">
+        <h3 class="col-lg-6 content-header">Applying to other practices</h3>
+        <p class="col-lg-6 content-copy">Despite these points being tailored to web design, non-digital designers or designers in other areas will still benefit from these tips!</p>
+        <p class="col-lg-6 content-copy">A lot of these are applicable to print design, such as levels of contrast, typefaces, and picking the correct colours.</p>
+        <p class="col-lg-6 content-copy">Always remember that any accessibility considerations you make could affect anyone in your intended audience.</p>
+    </div>
+
+    
+    <!-- References section heading -->
+    <div class="references-column col-lg-12">
+        <h2 class="section-heading col-lg-6"><a name="references"><i class="fa-solid fa-asterisk star" style="color: #a65a01;"></i> REFERENCES</a></h2>
+    </div>
+
+    <!-- References blog content -->
+    <div class="blog-column">
+        <h3 class="col-lg-6 content-header">References</h3>
+        <ul class="col-lg-6 content-copy tab">
+            <li>Aussant, G. (2022). 10 accessible design considerations for a beautiful website. [online] Perkins Access. Available at: https://perkinsaccess.org/accessible-design/.</li>
+            <li>Kaspars, M. (2023). Leading Accessibility Widget for ADA & WCAG Compliance – Accessibly. [online] Accessibly. Available at: https://accessiblyapp.com/blog/designing-for-accessibility/.</li>
+            <li>Key, C. (2024). Creating Inclusive Websites: Accessibility in Web Design. [online] Rubber Duckers. Available at: https://rubberduckers.co.uk/creating-inclusive-websites-accessibility-in-web-design/.</li>
+            <li>Understanding Accessibility (2023). Colours. [online] Understandingaccessibility.com. Available at: https://www.understandingaccessibility.com/colours.</li>
+            <li>WebAIM (2022). WebAIM: Keyboard Accessibility. [online] webaim.org. Available at: https://webaim.org/techniques/keyboard/.</li>
+        </ul>
+    </div>
+
+
+    <footer>
+
+    </footer>
+    
+
+
+</body>
+
+</html>
