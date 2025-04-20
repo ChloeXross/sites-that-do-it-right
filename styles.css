@@ -327,6 +327,28 @@ p {
 
 
 
+/* Examples */
+
+/* Examples general styling */
+.examples-column {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FBD5D6;
+    padding-bottom: 100px;
+}
+
+.examples-container {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+
+
+
 /* Content */
 
 /* Content general styling */
