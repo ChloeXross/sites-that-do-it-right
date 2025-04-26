@@ -353,6 +353,7 @@ p {
   
 .column {
     margin-top: 100px;
+    padding-bottom: 100px;
     background-color: #FBD5D6;
     float: left;
     width: 50%;
