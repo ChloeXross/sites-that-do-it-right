@@ -359,7 +359,6 @@ p {
     background-color: #FBD5D6;
     float: left;
     width: 60%;
-    /*height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .column-right {
@@ -371,7 +370,6 @@ p {
     background-color: #FBD5D6;
     float: left;
     width: 40%;
-    /*height: 300px; /* Should be removed. Only for demonstration */
 }
   
 .row:after {
