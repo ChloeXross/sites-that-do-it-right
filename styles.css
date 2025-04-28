@@ -279,21 +279,6 @@ p {
 /* Examples */
 
 /* Examples general styling */
-.examples-column {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #FBD5D6;
-    padding-bottom: 100px;
-}
-
-.examples-container {
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .responsive {
     width: 100%;
     height: auto;
@@ -312,13 +297,26 @@ p {
     float: left;
 }
 
-.column-left {
+.column-left2, .column-right2 {
+    margin-top: 40px;
+    padding-top: 50px;
+    background-color: #FFFBF0;
+}
+
+.column-left3, .column-right3 {
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #FBD5D6;
+}
+
+.column-left, .column-left2, .column-left3 {
     padding-left: 110px;
     padding-right: 10px;
     width: 55%;
 }
 
-.column-right {
+.column-right, .column-right2, .column-right3 {
     align-content: center;
     padding-left: 40px;
     padding-right: 110px;
@@ -342,8 +340,12 @@ p {
   
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 768px) {
-    .column-right, .column-left {
+    .column-right, .column-left, .column-left2, .column-right2, .column-left3, .column-right3 {
         width: 100%;
+    }
+    .column-left, .column-left2, .column-left3 {
+        padding-left: 30px;
+        padding-right: 30px;
     }
     .column-right {
         margin-top: 0px;
