@@ -249,76 +249,25 @@ p {
 
 /* Section responsive styling */
 @media only screen and (max-width: 992px) {
-    .section-heading {
-        color: red;
-        font-size: 60px !important;
-    }
-    .section-heading1 {
-        color: red;
-        font-size: 60px !important;
-    }
-    .section-heading2 {
-        color: red;
-        font-size: 60px !important;
-    }
-    .section-heading3 {
-        color: red;
-        font-size: 60px !important;
-    }
-    .section-heading4 {
+    .section-heading, .section-heading1, .section-heading2, .section-heading3, .section-heading4 {
         color: red;
         font-size: 60px !important;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .section-heading {
-        color: blue;
-        font-size: 50px !important;
-    }
-    .section-heading1 {
-        color: blue;
-        font-size: 50px !important;
-    }
-    .section-heading2 {
-        color: blue;
-        font-size: 50px !important;
-    }
-    .section-heading3 {
-        color: blue;
-        font-size: 50px !important;
-    }
-    .section-heading4 {
+    .section-heading, .section-heading1, .section-heading2, .section-heading3, .section-heading4 {
         color: blue;
         font-size: 50px !important;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .section-heading {
+    .section-heading, .section-heading1, .section-heading2, .section-heading3, .section-heading4 {
         color: green;
         font-size: 46px !important;
     }
-    .section-heading1 {
-        color: green;
-        font-size: 46px !important;
-    }
-    .section-heading2 {
-        color: green;
-        font-size: 46px !important;
-    }
-    .section-heading3 {
-        color: green;
-        font-size: 46px !important;
-    }
-    .section-heading4 {
-        color: green;
-        font-size: 46px !important;
-    }
-    .section-column {
-        margin-top: 50px !important;
-    }
-    .content-header {
+    .section-column, .content-header {
         margin-top: 50px !important;
     }
 }
@@ -448,23 +397,13 @@ iframe {
 
 /* Content responsive styling */
 @media only screen and (max-width: 992px) {
+    .content-header, .content-copy, .content-sub, .content-sub2 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
     .content-header {
         color: red; 
-        padding-left: 100px;
-        padding-right: 100px;
         align-items: flex-start;
-    }
-    .content-copy {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .content-sub {
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-    .content-sub2 {
-        padding-left: 100px;
-        padding-right: 100px;
     }
     .container {
         padding-left: 70px;
@@ -473,22 +412,12 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {
+    .content-header, .content-copy, .content-sub, .content-sub2 {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
     .content-header {
         color: blue;
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .content-copy {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .content-sub {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-    .content-sub2 {
-        padding-left: 60px;
-        padding-right: 60px;
     }
     .tab {
         margin-left: 30px;
@@ -500,23 +429,15 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
+    .content-header, .content-copy, .content-sub, .content-sub2 {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     .content-header {
         color: green;
-        padding-left: 30px;
-        padding-right: 30px;
     }
     .content-copy {
-        padding-left: 30px;
-        padding-right: 30px;
         font-size: 18px !important;
-    }
-    .content-sub {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .content-sub2 {
-        padding-left: 30px;
-        padding-right: 30px;
     }
     .tab {
         margin-left: 20px;
