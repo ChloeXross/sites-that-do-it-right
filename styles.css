@@ -345,6 +345,11 @@ p {
     justify-content: space-evenly;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 /* Code snippet from W3Schools for a responsive 2 column layout */
 * {
     box-sizing: border-box;
@@ -582,30 +587,3 @@ iframe {
         padding-left: 20px !important;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
