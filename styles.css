@@ -382,6 +382,16 @@ p {
     margin-top: 10px;
 }
 
+.principles-description {
+    padding-top: 5px;
+    font-size: 18px !important;
+}
+
+.intro-description {
+    padding-top: 5px;
+    font-size: 18px !important;
+}
+
 .tab {
     margin-left: 40px;
 }
@@ -399,7 +409,7 @@ iframe {
 
 /* Content responsive styling */
 @media only screen and (max-width: 992px) {
-    .content-header, .content-copy, .content-sub, .content-sub2 {
+    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description {
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -414,7 +424,7 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {
-    .content-header, .content-copy, .content-sub, .content-sub2 {
+    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -431,7 +441,7 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
-    .content-header, .content-copy, .content-sub, .content-sub2 {
+    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description {
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -443,6 +453,12 @@ iframe {
     }
     .tab {
         margin-left: 20px;
+    }
+    .principles-description {
+        font-size: 16px !important;
+    }
+    .intro-description {
+        font-size: 16px !important;
     }
 }
 
