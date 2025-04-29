@@ -276,7 +276,7 @@ p {
         color: green;
         font-size: 46px !important;
     }
-    .section-column, .section-column2, .content-header {
+    .section-column, .content-header {
         margin-top: 50px !important;
     }
 }
@@ -616,6 +616,9 @@ iframe {
         margin-top: 50px !important;
         padding-right: 30px;
         padding-left: 30px;
+    }
+    .intro-copy {
+        font-size: 18px !important;
     }
 }
 
