@@ -539,3 +539,18 @@ iframe {
         padding-left: 20px !important;
     }
 }
+
+
+
+
+
+/* Navigation Bar */
+
+/* Navbar general styling */
+.intro-align {
+    align-items: left !important;
+}
+
+.intro-img {
+    padding-top: 20px;
+}
