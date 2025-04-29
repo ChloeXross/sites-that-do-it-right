@@ -569,7 +569,7 @@ iframe {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: left;
     background: #FBD5D6;
 }
