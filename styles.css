@@ -409,7 +409,7 @@ iframe {
 
 /* Content responsive styling */
 @media only screen and (max-width: 992px) {
-    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description {
+    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description, .principles-img {
         padding-left: 100px;
         padding-right: 100px;
     }
@@ -424,7 +424,7 @@ iframe {
 }
 
 @media only screen and (max-width: 768px) {
-    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description {
+    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description, .principles-img {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -441,7 +441,7 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
-    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description {
+    .content-header, .content-copy, .content-sub, .content-sub2, .principles-description, .principles-img {
         padding-left: 30px;
         padding-right: 30px;
     }
