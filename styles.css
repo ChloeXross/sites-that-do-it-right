@@ -387,11 +387,6 @@ p {
     font-size: 18px !important;
 }
 
-.intro-description {
-    padding-top: 5px;
-    font-size: 18px !important;
-}
-
 .tab {
     margin-left: 40px;
 }
@@ -544,13 +539,55 @@ iframe {
 
 
 
-/* Navigation Bar */
+/* Examples Intro */
 
-/* Navbar general styling */
+/* Examples Intro general styling 
 .intro-align {
     align-items: left !important;
-}
+}*/
 
 .intro-img {
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.intro-copy {
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: "Andika", sans-serif !important;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.intro-description {
+    padding-top: 5px;
+    font-size: 18px !important;
+}
+
+.intro-column {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    background: #FBD5D6;
+}
+
+/* Examples Intro responsive styling */
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+    .intro-description {
+        font-size: 16px !important;
+    }
+    .intro-column {
+        margin-top: 50px !important;
+    }
 }
