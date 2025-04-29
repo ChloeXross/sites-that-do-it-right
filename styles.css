@@ -193,6 +193,15 @@ p {
     background: #FBD5D6;
 }
 
+.section-column2 {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FBD5D6;
+}
+
 .references-column {
     margin-top: 100px;
     display: flex;
@@ -267,7 +276,7 @@ p {
         color: green;
         font-size: 46px !important;
     }
-    .section-column, .content-header {
+    .section-column, .section-column2, .content-header {
         margin-top: 50px !important;
     }
 }
@@ -541,37 +550,47 @@ iframe {
 
 /* Examples Intro */
 
-/* Examples Intro general styling 
-.intro-align {
-    align-items: left !important;
-}*/
+/* Examples Intro general styling */
+.intro-column {
+    margin-top: 100px;
+    padding-left: 110px;
+    padding-right: 110px;
+    background: #FBD5D6;
+}
 
 .intro-img {
     padding-top: 50px;
-    padding-left: 110px;
-    padding-right: 110px;
 }
 
 .intro-copy {
     margin-top: 10px;
     font-size: 22px;
     font-family: "Andika", sans-serif !important;
-    padding-left: 110px;
-    padding-right: 110px;
 }
 
 .intro-description {
     padding-top: 5px;
+    padding-bottom: 50px;
     font-size: 18px !important;
 }
 
-.intro-column {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    background: #FBD5D6;
+.intro-button {
+    font-size: 18px;
+    font-family: "Andika", sans-serif;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #2E170E;
+    color: white;
+    border-radius: 40px;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.copy-link {
+    color: #2E170E !important;
+    text-decoration: underline;
 }
 
 /* Examples Intro responsive styling */
