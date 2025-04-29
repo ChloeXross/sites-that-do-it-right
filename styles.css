@@ -622,4 +622,56 @@ iframe {
     }
 }
 
-/* 100, 60, 30 */
+
+
+
+
+/* Footer */
+
+/* Footer general styling */
+.footer-left, .footer-right {
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background-color: #FBD5D6;
+    float: left;
+}
+
+.footer-left {
+    padding-left: 110px;
+    padding-right: 10px;
+    width: 50%;
+}
+
+.footer-right {
+    padding-left: 40px;
+    padding-right: 110px;
+    width: 50%;
+}
+
+.footer-links {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.footer-link {
+    color: #2E170E !important;
+    text-decoration: underline;
+}
+
+/* Footer responsive styling */
+@media screen and (max-width: 768px) {
+    .footer-right, .footer-left {
+        width: 100%;
+    }
+    .footer-left {
+        padding-right: 40px;
+        padding-left: 40px;
+        margin-top: 50px;
+        padding-bottom: 0px;
+    }
+    .footer-right {
+        margin-top: 0px;
+        padding-top: 30px;
+    }
+}
